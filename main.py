@@ -18,7 +18,7 @@ def password_check():
 def adding_passwords():
     passwords_set = {
         "website" : input("Enter the name of the website: "),
-        "password" : input("enter the password for website: ")
+        "password" : input("Enter the password for website: ")
     }
     dictionary_table.append(passwords_set)
     with open(r"D:\PR\P\password_manager\passwords_list.json", "w", encoding="utf-8") as file_json:
